@@ -1,179 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
-    <title>
-        Tejaswini Shagonda | A Web Developer .
-    </title>
-    <meta name="description" content="Add small description of yourslef.">
-    <meta name="keywords" content="Put your name, skills and some coding keywords" />
-    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="header" role="banner" id="top">
-        <div class="row">
-            <nav class="nav" role="navigation">
-                <ul class="nav__items">
-                    <li class="nav_item"><a href="#work" class="nav_link">Projects</a></li>
-                    <li class="nav_item"><a href="#clients" class="nav_link">Education</a></li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">About</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">Contact</a>
-                    </li>
+    <header>
+        <div class="container">
+            <h1>Tejaswini Shagonda</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="https://github.com/TejaswiniShagonda" target="_blank">GitHub</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="header__text-box row">
-            <div class="header__text">
-                <h1 class="heading-primary">
-                    <span>Tejaswini Shagonda</span>
-                </h1>
-                <!-- Put a small paragraph about yourself -->
-                <p>FRESHER interested as web developer .</p>
-                <a href="#contact" class="btn btn--pink">Get in touch</a>
-            </div>
-        </div>
     </header>
 
-    <main role="main">
-
-        <section class="work" id="work">
-            <div class="row">
-                <h2>My Work</h2>
-                <div class="work__boxes">
-
-                    <div class="work__box">
-                        <div class="work__text">
-                            <h3>Digital Clock</h3>
-                            <p>
-                                A real time update of time.
-                            </p>
-                            <ul class="work__list">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                            </ul>
-                     </div>
-                     </div>
-
-
-                            <div class="work__box">
-                                <div class="work__text">
-                                    <h3>Weather-API</h3>
-                                    <p>
-                                        Developed a weather API project utilizing JavaScript to fetch and display
-                                        real-time weather data, demonstrating proficiency in web development and API
-                                        integration.
-                                    </p>
-                                    <ul class="work__list">
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>JAVASCRIPT</li>
-
-                                    </ul>
-
-                                    <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code"
-                                        target="_blank">
-
-
-                                </div>
-                            </div>
-                        </div>
-        </section>
-        <section class="client" id="clients">
-            <div class="row">
-                <h2>Education</h2>
-               <div class="edu">
-                    <h3>
-                        Sri Chaitanya Junior College
-                        Hyderabad
-                    </h3>
-                    <h4>Intermediate</h4>
-                    <h3>percentage: 98.6</h3>
-                    </div>
-                    <div>
-                        <br><br>
-                    </div>
-                 
-                    <h3>
-                        Sreenidhi Institute of Science and Technology
-                        Hyderabad
-                    </h3>
-                    <h4>B.Tech</h4>
-                    <h3>CGPA: 9.24</h3>
+    <section id="about" class="section">
+        <div class="container stripe1">
+            <h2>About Me</h2>
+            <div class="about-content section act" >
+                <div class="about-text">
+                    <p>
+                    <h1>Hello! I'm Tejaswini,</h1> an enthusiastic newcomer to web development with a focus on
+                    responsive
+                    design. Proficient in HTML, CSS, Bootstrap, and JavaScript, I've crafted visually stunning and
+                    user-friendly websites. With a dedication to continuous learning and a passion for creating
+                    impactful digital experiences, I'm eager to contribute to innovative projects and excel in my
+                    career. Let's connect and build the web of tomorrow together!</p>
+                    <p>To know more about me check out my resume:
+                    <a href="https://1drv.ms/b/c/69b4437916ae33f4/EULNDzzrQm1BmIMCqu6zVkkBDGueNStTWbXUYDlvrU0FXw?e=uwopXF" target="_blank" class="resume-btn">View Resume</a>
+                </p></div>
+                <div class="about-photo">
+                    <img src="imgpng.png" alt="Your Photo">
                 </div>
-            </div>
-                    
-                </div>
-            </div>
-        </section>
-
-        <section class="about" id="about">
-            <div class="row">
-                <h2>About Me</h2>
-                <div class="about__content">
-                    <div class="about__text">
-                        <!-- Replace the below paragraph with info about yourself -->
-                        <p>
-                            I am a web developer with a passion for creating websites using HTML, CSS, and JavaScript. I enjoy building simple and user-friendly web experiences and am eager to learn and grow in the field. With a focus on problem-solving and teamwork, I aim to contribute positively to web development projects and continue expanding my skills.
-                        </p>
-                      
-                        <a href="https://1drv.ms/b/c/69b4437916ae33f4/EULNDzzrQm1BmIMCqu6zVkkBDGueNStTWbXUYDlvrU0FXw?e=uwopXF" class="btn">My Resume</a>
-                    </div>
-
-                    <div class="about__photo-container">
-                        <!-- Add a nice photo of yourself -->
-                        <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <section class="contact" id="contact">
-        <div class="row">
-            <h2>Get in Touch</h2>
-            <div class="contact__info">
-                <p>
-                    Are you looking for a fast-performing and user-friendly website to
-                    represent your product or business? or looking for any kind of
-                    consultation? or want to ask questions? or have some advice for me
-                    or just want to say "Hi 👋" in any case feel free to Let me know. I
-                    will do my best to respond back. 😊 The quickest way to reach out to
-                    me is via an email.
-                </p>
-                <!-- Replace the email with yours -->
-                <a href="mailto:tejaswinishagonda@gmail.com" class="btn">tejaswinishagonda@gmail.com</a>
             </div>
         </div>
     </section>
 
-    <footer role="contentinfo" class="footer">
-        <div class="row">
-            <!-- Update the links to point to your accounts -->
-           
-                <br>
-                <li class="footer__social-link-item">
-                    <a href="https://github.com/TejaswiniShagonda" title="Link to Github Profile">
-                        <img src="https://tse1.mm.bing.net/th?id=OIP.eTCbdR_AFzbqHMPXhrJWUQHaEK&pid=Api&P=0&h=180" class="footer__social-image" alt="Github">
-                    </a>
-                </li>
-               
-                <li class="footer__social-link-item">
-                    <a href="https://www.linkedin.com/in/tejaswini-shagonda-4a2b97290/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B7PyQ4No8QWq37TB3c9rBxw%3D%3D">
-                        <img src="https://tse3.mm.bing.net/th?id=OIP.ozDiSGJlUqI6815cRlJiNAHaHa&pid=Api&P=0&h=180" title="Link to Linkedin Profile" class="footer__social-image"
-                            alt="Linkedin">
-                    </a>
-                </li>
-            </ul>     
-    <a href="#top" class="back-to-top" title="Back to Top">
-        <img src="https://tse3.mm.bing.net/th?id=OIP.1mNwiF-SkFT2ab1Jz-nK2AHaHa&pid=Api&P=0&h=180" alt="Back to Top" class="back-to-top__image" />
-    </a>
-    <script src="./index.js"></script>
+    <section id="skills" class="section active">
+        <div class="container stripe2">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>Bootstrap</h3>
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>Javascript</h3>
+                    <div class="skill-level" style="width: 70%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>Java</h3>
+                    <div class="skill-level" style="width: 70%;"></div>
+                </div>
+                <div class="skill">
+                    <h3>DSA</h3>
+                    <div class="skill-level" style="width: 65%;"></div>
+                </div>
+
+                <!-- Add more skills -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container stripe1">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Weather API</h3>
+                    <p>The Weather API project is a web application that provides real-time weather information for
+                        various locations around the world. Users can enter the name of a city or location, and the
+                        application fetches and displays current weather conditions. The project utilizes an external
+                        weather API to retrieve the data
+                        and presents it in a user-friendly interface. This project demonstrates my proficiency in
+                        working with APIs, handling data retrieval and manipulation, and creating dynamic web
+                        applications.</p>
+
+                </div>
+                <div class="project">
+                <h3>Digital Clock</h3>
+                <p>The Digital Clock project is a simple yet elegant web application that displays the current time in a
+                    digital format. Built using HTML, CSS, and JavaScript, this project offers a sleek and responsive
+                    design that updates in real-time to reflect the accurate time. Users can easily glance at the clock
+                    to check the current time, making it a useful addition to any website or personal dashboard. With
+                    its minimalist interface and intuitive functionality, the Digital Clock project demonstrates
+                    proficiency in front-end web development and showcases the ability to create practical and visually
+                    appealing user interfaces.</p>
+
+            </div>
+            
+        </div>
+        <p>To view my projects, check out my <a href="https://github.com/TejaswiniShagonda" target="_blank">GitHub
+                profile</a>.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container stripe2">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p>Email:tejaswinishagonda@gmail.com</p>
+                <p>Phone: 6302357082</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/tejaswini-shagonda-4a2b97290/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B7PyQ4No8QWq37TB3c9rBxw%3D%3D" target="_blank">Your LinkedIn
+                        Profile</a></p>
+            </div>
+            <p>Or, you can fill out the form below to send me a message:</p>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Add more sections as needed -->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tejaswini Shagonda. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
