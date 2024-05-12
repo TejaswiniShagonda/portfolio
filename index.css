@@ -60,8 +60,8 @@ section {
 
 .navbar a:hover,
 .navbar a.active {
-    color:rgb(80, 86, 90);
-    text-decoration: underline;
+    color:var(--main-color) ;
+    text-shadow: 0 0 20px var(--main-color);
 }
 
 #menu-icon {
